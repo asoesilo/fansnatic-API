@@ -38,3 +38,10 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use rest-client for as a simple HTTP and REST client
+gem 'rest-client', '~> 1.7.2'
+
+# Use pry and pry-debugger
+gem 'pry', group: [:development, :test]
+gem 'pry-debugger', group: [:development, :test]
+
