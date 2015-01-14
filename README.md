@@ -5,7 +5,9 @@ API server for Fansnatic
 
 To run:
 1. Install dependant packages: ```bundle install```
-2. Run server: ```bin/rails s```
+2. Install redis: brew install redis
+3. Run redis: redis-server
+4. Run server: ```bin/rails s```
 
 Endpoints:
 1. /teams - return list of teams
