@@ -24,10 +24,10 @@ class Event
       venue: @venue
     }
   end
- 
+
   class << self
     def fetch_events(slug:)
-      APICache.get("#{:slug}", :cache => 3600) do
+      APICache.get("#{slug}", :cache => 3600) do
         events = []
         events_path = events_path(slug: slug)
         page_num = 1
