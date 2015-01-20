@@ -42,6 +42,9 @@ gem 'spring',        group: :development
 gem 'rest-client', '~> 1.7.2'
 
 # Use pry and pry-debugger
-gem 'pry', group: [:development, :test]
-gem 'pry-debugger', group: [:development, :test]
+# gem 'pry', group: [:development, :test]
+# gem 'pry-debugger', group: [:development, :test]
 
+gem 'api_cache'
+gem 'redis'
+gem 'moneta'
